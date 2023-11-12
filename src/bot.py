@@ -9,7 +9,7 @@ async def send_message(message, user_message):
         await message.author.send("Error: " + str(e))
 
 def run_bot():
-    TOKEN = 'ODA3NjgxNzI1NDM3NTc1MTk4.G_XkJP.5ApyftfwgnFgAb7sVi9OO7Sr-XJcupQyfeRQSg'
+    TOKEN = '' # Add your bot token here
     intents = discord.Intents.default()
     intents.message_content = True  # Enable this if you need to access message content
     
