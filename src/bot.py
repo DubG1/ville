@@ -28,7 +28,10 @@ def run_bot():
         user_message = str(message.content)
         channel = str(message.channel.name)
 
-        print(f'{username}: {user_message} 'in' ({channel})')
+        if channel != "bot":
+            return
+ 
+        print(f"{username} said: '{user_message}' ({channel})")
 
         await send_message(message, user_message)
 
