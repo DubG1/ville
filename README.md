@@ -1,2 +1,5 @@
-# ville
-Ville helps me getting into coding discords bots
+# README
+
+A dicord bot for my own server.
+
+Create some issues for recommended features
